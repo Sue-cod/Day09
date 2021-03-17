@@ -1,9 +1,9 @@
 function myEqualFunction(num) {
-    if (num === 23) {
+    if (num == 23) {
         return "Equal";
     }
 
-    else return "Not equal";
+     return "Not equal";
 
 }
  myEqualFunction(5);

@@ -1,5 +1,5 @@
 function logicalAndOperator(num) {
-    if (num <= 80 && >= 40) {
+    if (num <= 80 && num >= 40) {
         return "Yes";
     }
     return "No";
