@@ -11,8 +11,8 @@ function switchCaseSequential(num) {
             answer = "High";
             break;
     }
-}
 return answer;
+}
 
 switchCaseSequential(1);
 switchCaseSequential(2);
@@ -22,5 +22,13 @@ switchCaseSequential(5);
 switchCaseSequential(6);
 switchCaseSequential(7);
 switchCaseSequential(9);
-console.log(switchCaseSequential());
+console.log(switchCaseSequential(1));
+console.log(switchCaseSequential(2));
+console.log(switchCaseSequential(3));
+console.log(switchCaseSequential(4));
+console.log(switchCaseSequential(5));
+console.log(switchCaseSequential(6));
+console.log(switchCaseSequential(7));
+console.log(switchCaseSequential(8));
+console.log(switchCaseSequential(9));
 module.exports = switchCaseSequential;
